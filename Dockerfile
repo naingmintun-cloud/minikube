@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:windowsservercore
 COPY index.html /usr/share/nginx/html/index.html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
